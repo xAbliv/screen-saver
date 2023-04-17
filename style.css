@@ -5,9 +5,10 @@ body {
 
 .container {
   height: 90%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absoute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 .item {
